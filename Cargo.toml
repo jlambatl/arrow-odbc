@@ -33,7 +33,7 @@ arrow = { version = ">= 29, < 58", default-features = false, features = [
     "chrono-tz",
 ] }
 # We use chrono for date conversions.
-chrono = "0.4.39"
+chrono = "0.4.41"
 log = "0.4.27"
 thiserror = "2.0.12"
 
