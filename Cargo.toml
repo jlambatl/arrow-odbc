@@ -29,13 +29,13 @@ readme = "Readme.md"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-arrow = { version = ">= 29, < 58", default-features = false, features = [
+arrow = { version = ">= 57, < 58", default-features = false, features = [
     "chrono-tz",
 ] }
 # We use chrono for date conversions.
 chrono = "0.4.41"
 log = "0.4.27"
-thiserror = "2.0.12"
+thiserror = "2.0.18"
 
 odbc-api = ">= 17, < 21"
 atoi = "2.0.0"
